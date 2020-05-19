@@ -38,3 +38,19 @@ body{
   margin-top: 15px;
   margin-bottom: 15px;
 }
+ul{
+  margin: 0; 
+  padding: 0;
+}
+.centerFrame li{
+  display: inline-block;
+  margin: 10px;
+}
+.centerFrame li a{
+  color: white;
+  font-size: 60px;
+  transition: all ease-in-out 200ms;
+}
+.centerFrame li a:hover{
+  color: #0099ff;
+}
