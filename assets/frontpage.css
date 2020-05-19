@@ -1,0 +1,40 @@
+body{
+  background: url(/assets/background.png) no-repeat;
+  background-size: cover; 
+}
+.centerFrame{
+  width: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: auto;
+  margin-top: 5%;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  font-family: 'Arial',sans-serif;
+}
+.facePicture{
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+}
+.centerFrame h1{
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin-top:  20px;
+  margin-bottom: 0%;
+}
+.centerFrame h2{
+  font-size: 23px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-bottom: 0%;
+}
+.centerFrame p{
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
