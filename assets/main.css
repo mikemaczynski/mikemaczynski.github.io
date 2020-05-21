@@ -1,0 +1,89 @@
+html,body { 
+  background: url(/assets/darkbackground.png) center no-repeat ; 
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+  overflow-x: hidden; 
+}
+
+.navbar{
+  font-family: 'Arial',sans-serif;
+}
+.navbar nav{
+  width:100%;
+  position:fixed;
+  z-index:1; 
+  top:0px;  
+  padding: 15px; 
+  background: rgba(0,0,0, 0.8);
+}
+
+.navbar ul{width:fit-content; margin:auto; list-style:none;}
+
+.navbar ul li{float:left; margin-right:20px;}
+
+.navbar ul li a{color:#fff; text-decoration:none;}
+
+.navbar ul li a:hover{text-decoration:underline;}
+
+.centerFrame{
+  margin: auto;
+  margin-top: 20vh;
+  width: 350px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 28px;
+  text-align: center;
+  color: white;
+  font-family: 'Arial',sans-serif;
+}
+.facePicture{
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+}
+.centerFrame h1{
+  font-size: 32px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin-top:  20px;
+  margin-bottom: 0%;
+}
+.centerFrame h2{
+  font-size: 21px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-bottom: 0%;
+}
+.centerFrame p{
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.centerFrame ul{
+  margin: 0; 
+  padding: 0;
+}
+.centerFrame li{
+  display: inline-block;
+  margin: 10px;
+}
+.centerFrame li a{
+  color: white; 
+  font-size: 50px;
+  transition: all ease-in-out 200ms;
+}
+.centerFrame li a:hover{
+  color: #0099ff;
+}
+
+section{width:100%; height: 100vh; float:left;}
+
+#skills{background: #080808}
+#projects{background: #080808}
+#education{background:#080808}
+
