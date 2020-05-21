@@ -20,17 +20,31 @@ html,body {
   background: rgba(0,0,0, 0.8);
 }
 
-.navbar ul{width:fit-content; margin:auto; list-style:none;}
+.navbar ul{
+  width:fit-content; 
+  margin:auto; 
+  list-style:none;
+}
 
-.navbar ul li{float:left; margin-right:20px;}
+.navbar ul li{
+  float:left;
+  margin-right:20px;
+}
 
-.navbar ul li a{color:#fff; text-decoration:none;}
+.navbar ul li a{
+  color:#fff;
+  text-decoration:none;
+}
 
-.navbar ul li a:hover{text-decoration:underline;}
+.navbar ul li a:hover{
+  text-decoration:underline;
+}
 
 .centerFrame{
   margin: auto;
-  margin-top: 20vh;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
   width: 350px;
   background: rgba(255, 255, 255, 0.08);
   padding: 28px;
