@@ -155,25 +155,28 @@ html,body {
   border-radius: 5%;
 }
 .projectFrame h1{
-  font-size: 32px;
-  letter-spacing: 3px;
+  font-size: 20px;
+  letter-spacing: 1px;
   font-weight: 100;
-  margin-top:  20px;
-  margin-bottom: 0%;
+  float: right;
+  margin-top: 5px;
+  border-top-color: grey;
 }
 .projectFrame h2{
-  font-size: 21px;
-  letter-spacing: 2px;
+  font-size: 12px;
+  letter-spacing: 1px;
   font-weight: 100;
-  margin-top: 10px;
-  margin-bottom: 0%;
+  float: right;
+  margin-top: -155px;
+  border-top-color: grey;
 }
 .projectFrame p{
-  font-size: 15px;
-  letter-spacing: 2px;
+  font-size: 13px;
+  letter-spacing: 1px;
   font-weight: 100;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  float: right;
+  margin-top: -125px;
+
 }
 
 
