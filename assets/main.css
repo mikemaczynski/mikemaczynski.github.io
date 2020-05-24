@@ -171,7 +171,7 @@ html,body {
   border-top-color: grey;
 }
 .projectFrame p{
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 1px;
   font-weight: 100;
   float: right;
@@ -240,7 +240,6 @@ html,body {
 .educationFrame h2{
   padding: 0px;
   margin: 0px;
-  margin-top: 65px;
   margin-left: 10px;
   font-size: 18px;
   letter-spacing: 1px;
